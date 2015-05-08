@@ -1,0 +1,436 @@
+@font-face {
+    font-family: 'metropolis_1920';
+    src: url("Fonts/metropolis_1920-webfont.eot?#iefix") format('embedded-opentype'),
+         url("Fonts/metropolis_1920-webfont.woff") format('woff'),
+         url("Fonts/metropolis_1920-webfont.ttf") format('truetype'),
+         url("Fonts/metropolis_1920-webfont.svg#metropolis_1920regular") format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ostrich_black';
+    src: url('Fonts/ostrich-black-webfont.eot');
+    src: url('Fonts/ostrich-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/ostrich-black-webfont.woff') format('woff'),
+         url('Fonts/ostrich-black-webfont.ttf') format('truetype'),
+         url('Fonts/ostrich-black-webfont.svg#ostrich_sansblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'museo300';
+    src: url('Fonts/museo300-regular-webfont.eot');
+    src: url('Fonts/museo300-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/museo300-regular-webfont.woff') format('woff'),
+         url('Fonts/museo300-regular-webfont.ttf') format('truetype'),
+         url('Fonts/museo300-regular-webfont.svg#museo300') format('svg');
+    font-weight:100;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fjord';
+    src: url('Fonts/fjordone-regular-webfont.eot');
+    src: url('Fonts/fjordone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/fjordone-regular-webfont.woff') format('woff'),
+         url('Fonts/fjordone-regular-webfont.ttf') format('truetype'),
+         url('Fonts/fjordone-regular-webfont.svg#fjordone') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.header {
+	height:60px;
+	width:1340px;
+	margin-left:-670px;
+	margin-top:-30px;
+	left:50%;
+	background-image:url("Layout/titlebg.png");
+	top:40px;
+	position:fixed;
+	z-index:10;
+	box-shadow: 0 8px 8px -8px black;
+}
+.home_header {
+	height:70px;
+	width:1341px;
+	margin-left:-670px;
+	margin-top:-30px;
+	left:50%;
+	background-image:url("Layout/titlebg.png");
+	background-size:1341px 70px;
+	top:40px;
+	position:fixed;
+	z-index:10;
+	box-shadow: 0 8px 8px -8px black;
+}
+.nav {
+	height:39px;
+	width:1340px;
+	margin-top:-17px;
+	margin-left:-670px;
+	background-image:url("Layout/navbg.png");
+	top:95px;
+	left:50%;
+	position:fixed;
+	z-index:10;
+	box-shadow: 0 8px 8px -8px black;
+}	
+.home_nav {
+	height:39px;
+	width:1341px;
+	margin-top:-17px;
+	margin-left:-670px;
+	background-image:url("Layout/navbg.png");
+	top:105px;
+	left:50%;
+	position:fixed;
+	z-index:10;
+	box-shadow: 0 8px 8px -8px black;
+}
+.main {
+	position:absolute;
+	left:50%;
+	margin-left:-600px;
+	padding-bottom:5px;
+	width:1200px;
+	min-height:960px;
+	background-color:#FFF;
+	z-index:0;
+	box-shadow: 0 0 20px #888;
+}
+.main_content {
+	margin:80px;
+	margin-top:160px;
+}
+body {
+	background-image:url("Layout/Background.gif");
+}
+.navleft {
+	height:34px;
+	width:599px;
+	float:left;
+	margin-left:10px;
+	margin-top:0px;
+}
+.navright {
+	margin-right:30px;
+	margin-top:0px;	
+}
+.navtext {
+	font-family: "metropolis_1920";
+	font-size:24px;
+	margin-top:0px;
+}
+.nav3d {
+	width:1341px;
+	height:20px;
+	margin-top:-10px;
+	margin-left:-670px;
+	top:127px;
+	left:50%;
+	position:fixed;
+	background-image:url("Layout/nav3d.png");
+	background-repeat:no-repeat;
+	z-index:-20;
+}
+.home_nav3d {
+	width:1341px;
+	height:20px;
+	margin-top:-10px;
+	margin-left:-670px;
+	top:137px;
+	left:50%;
+	position:fixed;
+	background-image:url("Layout/nav3d.png");
+	z-index:-20;
+}
+	
+.contents {
+	position:absolute;
+	right:550px;
+	min-height:200px;
+	width:240px;
+	z-index:10;
+}
+.contents_box {
+	box-shadow: 5px 5px 5px -5px #888;
+}
+.title {
+	margin-top:5px;
+	margin-left:40px;
+	font-family:"metropolis_1920";
+	font-size:36px;
+	font-weight:300;
+	color:black;
+}
+.subtitle_below_image {
+	font-size:30px;
+	font-family:museo300;
+	font-weight:100;
+	margin-left:40px;
+	margin-top:55px;
+	text-decoration:underline;
+}
+.subtitle {
+	font-size:30px;
+	font-family:museo300;
+	font-weight:100;
+	margin-left:40px;
+	margin-top:35px;
+	text-decoration:underline;
+}
+.footer {
+	width:500px;
+	height:40px;
+	margin-left:-250px;
+	margin-bottom:-20px;
+	position:fixed;
+	bottom:20px;
+	left:50%;
+	background-image:url("Layout/Footer.png");
+	box-shadow: 0 -4px 6px -6px #888;
+}
+.foot {
+	width:379px;
+	margin-left:68px;
+}
+.foothome {
+	width:61px;
+	top:0px;
+	float:left;
+	margin:0px;
+}
+.footcontact {
+	width:100px;
+	top:0px;
+	float:left;
+	margin:0px;
+}
+.footfeedback {
+	width:110px;
+	top:0px;
+	float:left;
+	margin:0px;
+}
+.footsitemap {
+	width:107px;
+	top:0px;
+	float:left;
+	margin:0px;
+}
+.home_title3d {
+	width:1341px;
+	height:10px;
+	margin-top:-5px;
+	margin-left:-670px;
+	top:85px;
+	left:50%;
+	position:fixed;
+	background-image:url("Layout/title3d.png");
+	z-index:-10;
+}
+.title3d {
+	width:1341px;
+	height:10px;
+	margin-top:-5px;
+	margin-left:-670px;
+	top:75px;
+	left:50%;
+	position:fixed;
+	background-image:url("Layout/title3d.png");
+	z-index:-10;
+}
+
+.name {
+	font-family:museo300;
+	font-size:55px;
+}
+p {
+	font-family:fjord;
+	margin-left:70px;
+	margin-top:0px;
+	margin-right:50px;
+	line-height:150%;
+}
+#text {
+	margin-top:18px;
+	text-align:justify;
+}
+.content_title {
+	position:absolute;
+	font-family:"ostrich_black";
+	top:17px;
+	margin-left:30px;
+	font-size:35px;
+	font-weight:normal;
+	color:#004162;
+}
+.content_subtitle {
+	position:relative;
+	font-family:"ostrich_black";
+	font-size:27px;
+	color:#00a8ff;
+	top:16px;
+	left:-30px;
+	margin-right:0px;
+	line-height:90%;
+}
+.content_subtitle_dark {
+	position:relative;
+	font-family:"ostrich_black";
+	font-size:27px;
+	color:#004162;
+	top:16px;
+	left:-30px;
+	margin-right:0px;
+	line-height:100%;
+}
+.content_cell_top {
+	margin-top:0px;
+	height:55px;
+	background-color:#09F;
+	width:100%;
+	margin-bottom:0px;
+}
+.content_cell {
+	margin-top:0px;
+	height:50px;
+	background-color:#004162;
+	width:100%;
+	margin-bottom:0px;
+}
+.content_cell_light {
+	margin-top:0px;
+	height:50px;
+	background-color:#09F;
+	width:100%;
+	margin-bottom:0px;
+}
+.contents_3d {
+	position:absolute;
+	background-color:#0177B2;
+	height:205px;
+	width:200px;
+	right:465px;
+}
+.main_image {
+	margin-left:-80px;
+	margin-top:30px;
+	width:1200px;
+}
+.tight {
+	margin-left:0px;
+	margin-right:0px;
+	padding:0px;
+}
+a {
+	text-decoration:none;
+	padding:0px;
+}
+.anchor {
+	position:relative;
+	top:-120px;
+}
+img {
+	padding:0px;
+}
+ul {
+	font-family:"fjord";
+	margin-left:80px;
+	text-align:justify;
+	margin-right:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+	line-height:150%;
+}
+.emphasis {
+	font-size:20px;
+	font-weight:bold;
+}
+.columns {
+	position:absolute;
+	top:180px;
+	height:660px;
+	width:1200px;
+	margin:0px;
+}
+.leftcol {
+	position:abosolute;
+	height:660px;
+	width:385px;
+	margin-left:12px;
+	float:left;
+	background-image:url(Home/petronas_twin_towers.png);
+	box-shadow: inset 2px 2px 20px 1px black;
+}
+.midcol {
+	position:abosolute;
+	height:660px;
+	width:385px;
+	margin-left:10px;
+	float:left;
+	background-image:url(Home/cn_tower.png);
+	box-shadow: inset 2px 2px 20px 1px black;
+}
+.rightcol {
+	position:abosolute;
+	height:660px;
+	width:385px;
+	margin-left:10px;
+	float:left;
+	background-image:url(Home/mecca_tower.png);
+	box-shadow: inset 2px 2px 20px 1px black;
+}
+.contents_align {
+	position:fixed;
+	top:26%;
+	width:50%;
+	left:0%;
+	z-index:99999;
+}
+.contents_3d_align {
+	position:fixed;
+	top:26%;
+	width:50%;
+	left:0%;
+	z-index:-99999;
+}
+.img {
+	margin:15px;
+	float:right;
+	padding-top:0px;
+	box-shadow: 0 8px 8px -8px black;
+}
+.imgleft {
+	margin:15px;
+	float:left;
+	padding-top:0px;
+	box-shadow: 0 8px 8px -8px black;
+	left:120px;
+}	
+.imgcenter {
+	margin:15px;
+	padding-top:0px;
+	box-shadow: 0 8px 8px -8px black;
+	margin-left:120px;
+}	
+.table {
+	border-style:solid;
+	border-width:20px;
+	border:#004162;
+	border-collapse:collapse;
+	margin-left:80px;
+	font-family:ostrich_black;
+	background-color:#0099ff;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:1px;
+	box-shadow: 0 8px 8px -8px black;
+}
+a img {
+	border-style:none;
+	border-width:0px;
+}

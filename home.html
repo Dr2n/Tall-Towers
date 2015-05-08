@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home</title>
+<link rel="shortcut icon" href="favicon.png" />
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function imgSwap(id,src) {
+	document.getElementById(id) .src=src;
+}
+</script>
+</head>
+<body onload="MM_preloadImages('Layout/Buttons/Home_light.png','Layout/Buttons/CN_tower_light.png','Layout/Buttons/twin_tower_light.png','Layout/Buttons/contact_light.png','Layout/Buttons/site_map_light.png','Layout/Buttons/feeback_light.png')">
+<a href="home.html"><div class="home_header"><p style="text-align:center;"><a href="home.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('title','','Layout/title_rollover.png',1)"><img src="Layout/tall-towers.png" alt="Home" height="36" id="title" style="margin-top:17px;" /></a></p></div></a>
+<div class="home_title3d"></div>
+<div class="home_nav">
+<p class="navtext" style="text-align:center;">
+<a href="Twin_Towers.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Twin Towers','','Layout/Buttons/twin_tower_light.png',1)"><img src="Layout/Buttons/twin_tower_dark.png" alt="Petronas Twin Towers" style="margin-top:12px;" height="27" id="Twin Towers" /></a> </a><a href="cn_tower.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('CN Tower','','Layout/Buttons/CN_tower_light.png',1)"><img src="Layout/Buttons/CN_tower_dark.png" alt="CN Tower" id="CN Tower" style="margin-top:12px;" height="27" /></a>
+<a href="abraj_al_bait_towers.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Abraj Al Bait Towers','','Layout/Buttons/Abraj_Al_Bait_Towers_light.png',0)"><img src="Layout/Buttons/Abraj_Al_Bait_Towers_dark.png" alt="Abraj Al Bait Towers" style="margin-top:12px;" height="27" id="Abraj Al Bait Towers" /></a></p>
+</div>
+<div class="home_nav3d"></div>
+<div class="main">
+<div class="columns">
+<div class="leftcol">
+<a href="twin_towers.html" onmouseover="imgSwap('imgleft','Home/petronas_twin_towers_rollover.png');" onmouseout="imgSwap('imgleft','Home/petronas_twin_towers.png');"><img src="Home/petronas_twin_towers.png" id="imgleft"/></div></a>
+<div class="midcol"><a href="cn_tower.html" onmouseover="imgSwap('imgmid','Home/cn_tower_rollover.png');" onmouseout="imgSwap('imgmid','Home/cn_tower.png');"><img src="Home/cn_tower.png" id="imgmid"/></a></div>
+<div class="rightcol">
+<a href="abraj_al_bait_towers.html" onmouseover="imgSwap('imgright','Home/mecca_tower_rollover.png');" onmouseout="imgSwap('imgright','Home/mecca_tower.png');"><img src="Home/mecca_tower.png" id="imgright"/></div></a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer"><div class="foot"><a href="home.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home2','','Layout/Buttons/footerhome_light.png',1)"><img src="Layout/Buttons/footerhome_dark.png" alt="Home" style="margin-top:12px;" height="27" id="Home2"/></a>
+<a href="mailto:dfu3@eq.edu.au" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contact','','Layout/Buttons/contact_light.png',1)"><img src="Layout/Buttons/contact_dark.png" alt="Contact" style="margin-top:12px;" height="27" id="Contact" /></a>
+<a href="sitemap.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Site Map','','Layout/Buttons/site_map_light.png',1)"><img src="Layout/Buttons/site_map_dark.png" alt="Site Map" style="margin-top:12px;" height="27" id="Site Map" /></a>
+<a href="mailto:dfu3@eq.edu.au" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Feedback','','Layout/Buttons/feeback_light.png',1)"><img src="Layout/Buttons/feedback_dark.png" alt="Feedback" style="margin-top:12px;" height="27" id="Feedback" /></a></div></div>
+<body>
+</body>
+</html>
+
